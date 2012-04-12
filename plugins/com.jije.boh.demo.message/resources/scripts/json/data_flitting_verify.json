@@ -1,0 +1,33 @@
+{
+	"id":1212,
+	"icon": "images/b-list-icon-1.png",
+	"time": "2012-12-12 15:23",
+	"out": "北京餐厅",
+	"enter": "上海餐厅",
+	"state":0,
+	"list": [
+	{
+		"id": 1,
+		"name": "九块鸡",
+		"unit": "箱",
+		"reality":2
+	}, 
+	{
+		"id": 2,
+		"name": "九块鸡",
+		"unit": "箱",
+		"reality":3
+	}, 
+	{
+		"id": 3,
+		"name": "九块鸡",
+		"unit": "箱",
+		"reality":4
+	}, 
+	{
+		"id": 4,
+		"name": "九块鸡",
+		"unit": "箱",
+		"reality":5
+	}]
+}

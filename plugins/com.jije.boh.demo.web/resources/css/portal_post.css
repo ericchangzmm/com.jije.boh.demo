@@ -1,0 +1,30 @@
+.p-post{
+	width:100%;
+	background:#fff;
+}
+
+.p-post p{
+	line-height:22px;
+	color:#222;
+	font-size:12px;
+	padding:0 15px 0 25px;	
+	border-bottom:1px #a2a2a2 solid;
+}
+.p-post .p-post-1{
+	background:url(/moduleresources/core.web/resources/images/p-post-0.png) 8px 5px no-repeat;
+}
+.p-post .p-post-2{
+	background:url(/moduleresources/core.web/resources/images/p-post-1.png) 8px 5px no-repeat;
+}
+.p-post .p-post-3{
+	background:url(/moduleresources/core.web/resources/images/p-post-2.png) 8px 5px no-repeat;
+}
+.p-post .p-bottom-none{
+	border:none;
+}
+.p-post p label{
+	text-align:right;
+	display:block;
+	color:#999;
+	line-height:18px;
+}

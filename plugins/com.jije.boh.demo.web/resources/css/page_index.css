@@ -1,0 +1,199 @@
+/**
+ * BOH 
+ * @author candy
+ * @date 2012/02/21
+ */
+
+/*content*/
+.p-content{
+	width:99%;
+	margin: 10px auto 0;
+	min-width:1024px;
+	
+}
+.p-content-title{	
+	background:url(/moduleresources/core.web/resources/images/p-title-bg.png) 0 0 repeat-x;
+	height:32px;
+	line-height:32px;
+}
+.p-title-left{	
+	float:left;
+	height:32px;
+	margin-left:5px;
+}
+.p-title-left img{
+	margin:-4px 10px;	
+}
+.p-title-right{
+	float:right;
+	height:32px;
+	margin-right:10px;
+}
+.p-content-info{
+	background-color:#ffffff;
+	padding:20px;
+}
+
+
+.p-li{	
+	height:35px;
+	text-align:center;
+	line-height:35px;
+}
+.p-div{
+	width:120px;
+	text-align:center;
+}
+.p-clearfloat{
+	height:1px;
+	clear:both;
+}
+.p-li-left{
+	height:35px;
+	text-align:left;
+	line-height:35px;
+	padding-left: 5px;
+}
+.p-li-text{
+	width:96%;
+	height:25px;
+}
+.p-li-text option{
+	height:25px;
+}
+.p-li-button{
+	width:60%;
+	height:25px;
+	margin-top:10px;	
+}
+.p-li-title1{
+	height:25px;
+	line-height:25px;
+	text-align:center;
+}
+.p-li-title{
+	background-color:#676767;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border-left:1px solid #ffffff;
+}
+.p-row{
+	width:120px;
+	float:left;
+}
+.p-row-lable{
+	width:115px;
+	float:left;
+	color:#006699;
+	padding-left:5px;
+}
+.p-row-activelable{
+	width:115px;
+	position:absolute;
+	left:480px;
+	color:#006699;
+	padding-left:5px;
+}
+.p-row-lable li{
+	height:25px;
+	line-height:25px;
+}
+.p-row-activelable li{
+	height:25px;
+	line-height:25px;
+}
+.p-tab-info{
+	height:550px;
+}
+.p-row input{
+	width:75%;
+	height:21px;
+	margin-top:-3px;
+}
+.p-row li{
+	height:25px;
+	line-height:25px;
+}
+.p-btn-check{
+	margin-left:240px;
+	width:90px;
+}
+.p-tab-menu{
+	border-bottom:1px solid #c0c0c0;
+}
+.p-tab-menu a{
+	display:block;
+	float:left;
+	width:96px;
+	height:24px;
+	background:url(/moduleresources/core.web/resources/images/p-tab-menubg.png) bottom center no-repeat;
+	text-align:center;
+	text-decoration:none;
+	line-height:24px;
+}
+.p-tab-menu .p-active{
+	background:url(/moduleresources/core.web/resources/images/p-tab-activemenubg.png) bottom center no-repeat;
+}
+.p-tab-info{
+	position:relative;
+}
+/*零找金申请*/
+.p-table{
+	width:99%;
+	background-color:#eeeeee;
+}
+.p-table td{
+	height:25px;
+	line-height:25px;
+	border-right:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+}
+.p-td{
+	width:150px;
+}
+.p-first-tr{
+	background-color:#676767;
+}
+.p-pagecount{
+	text-align:center;
+}
+.p-pagecount a{
+	width:20px;
+	height:20px;
+}
+.p-pagecount input{
+	width:80px;
+	height:25px;
+}
+.p-lastpage{
+	margin-right:60px;
+}
+.p-nextpage{
+	margin-left:60px;
+}
+.p-menu{
+	width:85%;
+}
+.p-menu-title{
+	border-bottom:1px solid #cccccc;
+}
+.p-menu-info{
+	padding-left:40px;
+}
+.p-mune-list{
+
+}
+.p-menu-list li{
+	display:inline-block;
+	margin:15px;
+	cursor:pointer;
+}
+.p-menu-list dl{
+	text-align:center;
+}
+
+.p-operate{
+	text-align:right;
+}
+

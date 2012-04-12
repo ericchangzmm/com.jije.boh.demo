@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+       http://www.springframework.org/schema/beans/spring-beans.xsd                      
+       http://www.springframework.org/schema/osgi  
+       http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+	<osgi:service interface="com.jije.boh.demo.service.inter.IOperateService"
+		ref="messageService" />
+
+	<osgi:reference
+		interface="com.jije.boh.demo.jpa.repository.BascMessageRepository" id="bascMessageRepository" />
+
+	<osgi:reference id="frmcMenuCfgRepository"
+		interface="com.jije.boh.demo.jpa.repository.FrmcMenuCfgRepository" />
+
+	<osgi:reference interface="com.jije.boh.demo.jpa.repository.BascUserRepository"
+		id="bascUserRepository" />
+
+	<osgi:service interface="com.jije.boh.demo.service.inter.IOperateMessageService"
+		ref="messageServiceImpl" />
+</beans>

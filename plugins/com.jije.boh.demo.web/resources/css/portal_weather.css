@@ -1,0 +1,104 @@
+.p-weather{
+	width:100%;
+	background:url(/moduleresources/core.web/resources/images/p-weather-bg.png) 0 0  repeat-x;
+	height:129px;
+	overflow:hidden;
+	text-align:center;
+	min-width:300px;
+	font-size:12px;
+}
+.p-weather .p-weather-top{
+	width:100%;
+	height:30px;
+	float:left;
+}
+.p-weather .p-weather-top .p-city{
+	float:left;
+	margin:8px 0 0 8px;
+}
+.p-weather .p-weather-top .p-date{
+	float:left;
+	margin:8px 0 0 8px;
+}
+.p-weather .p-weather-top .p-week{
+	float:left;
+	margin:8px 0 0 8px;
+}
+.p-weather .p-weather-top .p-holiday{
+	float:left;
+	margin:8px 0 0 8px;
+	color:#d66641;
+}
+.p-weather .p-weather-top .p-dateTime{
+	float:right;
+	margin-right:10px;
+	color:#fff;
+	background:#3b9cd8;
+	text-align:center;
+	padding:0 20px;
+	border-radius: 0 0 4px 4px;
+	border-bottom:1px #efefef solid;
+}
+.p-weather .p-weather-content{
+	width:100%;
+	text-align:center;
+	line-height:63px;
+	font-size:48px;
+	color:#043e6a;
+	float:left;
+	font-family:Arial;
+	height:63px;
+	overflow:hidden;
+	margin-top:5px;
+}
+.p-weather .p-weather-content label{
+	display:inline-block;
+	background:url(/moduleresources/core.web/resources/images/p-weather-1.png) right 0 no-repeat;
+	padding-right:20px;
+	line-height:70px;
+}
+.p-weather .p-weather-content .p-left{
+	float:left;
+	width:40%;
+	text-align:right;
+}
+.p-weather .p-weather-content .p-right{
+	float:left;
+	width:60%;
+	text-align:left;
+}
+.p-weather .p-weather-bottom{
+	width:100%;
+	float:left;	
+	margin-top:5px;
+}
+.p-weather .p-weather-bottom label{
+	margin:2px 20px 0 8px;
+	color:#1e71ac;
+	float:left;
+}
+.p-weather-news{
+	width:100%;
+	background:#f5f2dd;
+	line-height:22px;
+	color:#a8170d;
+	height:44px;
+	overflow:hidden;
+}
+.p-weather-news a{
+	font-size:12px;
+	display:block;
+	margin:0 60px 0 10px;
+	line-height:22px;
+}
+.p-weather-more{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/p-weather-more.png) 0 0 no-repeat;
+	width:47px;
+	height:21px;
+	margin-top:-21px;
+	cursor:pointer;
+}
+.p--weather-moer-up{
+	background:url(/moduleresources/core.web/resources/images/p-weather-more1.png) 0 0 no-repeat;
+}

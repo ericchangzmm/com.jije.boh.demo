@@ -1,0 +1,6 @@
+Use the following commands to sync with master:
+git remote add --track master nvltech git@github.com:Nvltech/com.jije.boh.demo.git
+git remote
+git fetch nvltech
+git merge nvltech/master
+git push

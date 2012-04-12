@@ -1,0 +1,162 @@
+.b-portal-table {
+    width: 99%;
+    min-width: 1024px;
+    margin: 0 auto;
+    -moz-user-select: none;
+}
+
+.b-portal-option {
+    width: 99%;
+    min-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+    -moz-user-select: none;
+}
+
+.b-portal-option span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #666666;
+    border-radius: 10px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.b-portal-option .at {
+    width: 20px;
+    color: #fff;
+    background: #00aeef;
+    border-radius: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.b-portal {
+    width: 100%;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 10px;
+}
+
+.b-portal .b-portal-title {
+    background: url(/moduleresources/core.web/resources/images/b-portal-title.png) 0 0 repeat-x;
+    height: 24px;
+}
+
+.b-portal .b-portal-title .left {
+    float: left;
+    width: 80%;
+    cursor: move;
+    height: 24px;
+    line-height: 22px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.b-portal .b-portal-title .right {
+    float: right;
+    height: 24px;
+    margin-right: 10px;
+    line-height: 22px;
+}
+
+.b-portal .b-portal-title .b-move-max {
+    background: url(/moduleresources/core.web/resources/images/b-max.png) center center no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 4px;
+}
+
+.b-portal .b-portal-title .b-move-min {
+    background: url(/moduleresources/core.web/resources/images/b-min.png) center center no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 4px;
+}
+
+.b-portal .b-portal-content {
+    width: 100%;
+}
+
+.b-portal-td-content {
+    width: 0.5%;
+    overflow: hidden;
+}
+
+.b-portal-table td {
+    vertical-align: top;
+}
+
+.p-deal-main-btn {
+    width: 40%;
+    text-align: right;
+    position: relative;
+    margin: -38px 0 10px;
+    float: right;
+}
+
+.p-deal-main-btn .b-public-btn {
+    margin-right: 10px;
+}
+
+.p-deal-main {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/*详情*/
+.p-portal-detailed {
+    width: 580px;
+    background: #fff;
+    cursor: default;
+    display: none;
+}
+
+.p-portal-detailed-table {
+    width: 100%;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+    background: #efefef;
+}
+
+.p-portal-detailed-table th {
+    background: #676767;
+    color: #fff;
+    border-bottom: 1px #fff solid;
+    border-right: 1px #fff solid;
+}
+
+.p-portal-detailed-table td {
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    height: 25px;
+    line-height: 25px;
+}
+
+.p-portal-detailed-table label {
+    display: inline-block;
+}
+
+.p-portal-detailed-table input {
+    width: 60px;
+    height: 23px;
+    border: 1px #ddd solid;
+}
+
+.p-portal-detailed-table tr:hover {
+    background: #e7f6ff;
+}
+
+.p-portal-detailed .p-bottom-btn {
+    width: 100%;
+    text-align: right;
+    padding: 20px 0 10px 0;
+}

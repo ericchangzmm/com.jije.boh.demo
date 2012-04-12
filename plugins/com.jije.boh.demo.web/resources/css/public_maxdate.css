@@ -1,0 +1,245 @@
+﻿.b-max-date-content{
+	width:900px;
+	margin:65px auto;
+	background:#fff;
+	font-family:"SimSun";
+}
+.b-max-date-top{
+	height:35px;
+	line-height:35px;
+	width:100%;
+}
+.b-max-date-top .b-max-year{
+	font-size:36px;
+	font-weight:bolder;
+	color:#999;
+	float:left;
+}
+.b-max-date-top .b-max-month{
+	font-size:36px;
+	font-weight:bolder;
+	color:#333;
+	float:left;
+	padding-left:15px;
+}
+.b-max-date-top .b-max-last{
+	float:right;
+	width:33px;
+	height:25px;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-2.png) 0 0 no-repeat;
+	cursor:pointer;
+	margin-top:5px;
+}
+.b-max-date-top .b-max-next{
+	float:right;
+	width:33px;
+	height:25px;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-3.png) 0 0 no-repeat;
+	cursor:pointer;
+	margin-top:5px;
+}
+.b-max-table-content{
+	width:100%;
+	border-top:1px #b7b7b7 solid;
+	border-left:1px #b7b7b7 solid;
+}
+.b-max-table-content th{
+	height:25px;
+	line-height:25px;
+	background:#d5d5d5;
+	border-right:1px #b7b7b7 solid;
+	border-bottom:1px #b7b7b7 solid;
+	text-align:left;
+	text-indent:5px;
+}
+.b-max-table-content td{
+	height:55px;
+	line-height:55px;
+	background:#f5f5f5;
+	border-right:1px #b7b7b7 solid;
+	border-bottom:1px #b7b7b7 solid;
+	width:14%;
+}
+.b-max-table-content td dt{
+	float:left;
+	width:100%;
+	height:25px;
+	text-indent:5px;
+	line-height:25px;
+}
+.b-max-table-content dl:hover{
+	background:#e7f6ff;
+}
+.b-max-table-content dl{
+	height:55px;
+}
+
+.b-max-table-content td dt label{
+	color:#d21111;
+	padding-left:5px;	
+}	 
+.b-max-table-content td dd{
+	float:left;
+	width:100%;
+	height:30px;
+	line-height:30px;
+}
+.b-max-table-content .b-day-account{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-6.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-week-account{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-7.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-month-account{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-8.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-day-account1{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-6-1.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-week-account1{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-7-1.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-month-account1{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-8-1.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-day-account2{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-6-2.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-week-account2{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-7-2.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .b-month-account2{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-8-2.png) 0 0 no-repeat;
+	width:20px;
+	height:19px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content dl .b-account-ok{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-5.png) 0 0 no-repeat;
+	width:21px;
+	height:21px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content dl .b-account-over{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-4.png) 0 0 no-repeat;
+	width:21px;
+	height:21px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-table-content .day-check-ok{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-5.png) 0 0 no-repeat;
+	width:21px;
+	height:21px;
+	margin:5px;
+}
+.b-max-table-content .day-check-err{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-5-1.png) 0 0 no-repeat;
+	width:21px;
+	height:21px;
+	margin:5px;
+}
+.b-max-table-content .day-check-may{
+	float:right;
+	background:url(/moduleresources/core.web/resources/images/b-max-date-5-2.png) 0 0 no-repeat;
+	width:21px;
+	height:21px;
+	cursor:pointer;
+	margin:5px;
+}
+.b-max-date-content .b-max-bottom{
+	width:100%;
+	margin:25px auto;
+	display:inline-block;
+}
+.b-max-date-content .b-max-bottom .b-max-ok1{
+	background:url(/moduleresources/core.web/resources/images/b-max-date-5.png) 0 0 no-repeat;
+	height:21px;
+	padding-left:25px;
+	float:left;
+	margin-right:30px;
+}
+.b-max-date-content .b-max-bottom .b-max-over1{
+	background:url(/moduleresources/core.web/resources/images/b-max-date-4.png) 0 0 no-repeat;
+	height:21px;
+	padding-left:25px;
+	float:left;
+	margin-right:30px;
+}
+.b-max-date-content .b-max-bottom .b-max-offline{
+	background:url(/moduleresources/core.web/resources/images/b-max-date-5-1.png) 0 0 no-repeat;
+	height:21px;
+	padding-left:25px;
+	float:left;
+	margin-right:30px;
+}
+.b-max-date-content .b-max-bottom .b-max-may{
+	background:url(/moduleresources/core.web/resources/images/b-max-date-5-2.png) 0 0 no-repeat;
+	height:21px;
+	padding-left:25px;
+	float:left;
+	margin-right:30px;
+}
+.b-max-date-content .b-max-bottom .b-max-nowday1{
+	height:21px;
+	padding-left:25px;
+	float:left;
+	margin-right:30px;
+}
+
+.p-date-parent-content{
+	width:99%;
+	margin:10px auto 0;
+	background:#fff;
+	border:1px #c0c0c0 solid;
+}
+.b-now-day{
+	background:#fffc9e;
+}

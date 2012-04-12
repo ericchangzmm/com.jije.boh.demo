@@ -1,0 +1,35 @@
+.p-channel{
+	width:100%;
+	overflow:hidden;
+}
+.p-channel td{
+	width:50%;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px #c0c0c0 dashed;
+	border-right:1px #c0c0c0 dashed;
+	cursor:pointer;
+}
+
+.p-channel td:hover{
+	background:#e7f6ff;
+}
+.p-channel .p-icon-left{
+	float:left;
+	width:40%;
+	text-align:right;
+	padding-top:8px;
+}
+.p-channel .p-icon-right{
+	float:left;
+	width:40%;
+	text-align:left;
+	padding-left:20px;
+	font-size:14px;
+}
+.p-channel .p-border-right{
+	border-right:none;
+}
+.p-channel .p-border-bottom{
+	border-bottom:none;
+}
